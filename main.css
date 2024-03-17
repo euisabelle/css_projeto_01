@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'futura bk bt book';
+    src: url("./Futura\ Bk\ BT\ Book.ttf");
+}
+
+@font-face {
+    font-family: 'futura bold condensed bt';
+    src: url(./Futura\ Bold\ Condensed\ BT.ttf);
+}
+
+header {
+    padding: 18px 0;
+    background-color: #f1f1f1;
+    letter-spacing: 3PX;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Futura Bk BT Book';
+    color: #7a7a7a;
+}
+
+h1 {
+    color: #da1096;
+    font-family: 'futura bold condensed bt'
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #7a7a7a;
+    text-decoration: none;
+    font-family: 'futura bk bt book';
+    font-weight: 550;
+}
+
+.container,
+.project {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+
+.projects-list img {
+    height: 230px;
+}
+
+.projects-list li {
+    display: inline-block;
+    margin:  5px;
+    width: 30%;
+    
+}
+
+.project {
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-bottom: 40px;
+    color: #da1096;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+section p {
+    margin: 137px 60px 00px 80px;
+    text-align: justify;
+
+}
+
+.about-me {     
+    width: 20%;
+    margin-right: 20px;
+}
+
+.contact {
+    max-width: 1280px;
+}
+
+.contact-methods {
+    max-width: 1280px;
+    width: 100%;
+    margin: 8px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 600px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #7a7a7a;
+    letter-spacing: 3px;
+}
+
+form button {
+    background-color: #da1096;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fa71cc;
+
+}
+
+input:focus, textarea:focus {
+    outline-color:#da1096 ;
+}
+
+footer {
+    background-color: #95a9c4d8;
+    color: #ecf0f1;
+    padding: 16px 0;
+    align-items: center;
+    
+}
+
+.social-links img {
+    height: 20px;
+}
+
+.social-links li {
+    display: inline;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between
+}
